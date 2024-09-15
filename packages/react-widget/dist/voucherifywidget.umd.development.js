@@ -175,7 +175,7 @@
         setInputState = _useState2[1];
 
     var onInputChange = React.useCallback(function onChange(event) {
-      // event.persist()
+      event.persist();
       var name = event.target.name;
       setInput(function (prev) {
         var _extends2;
